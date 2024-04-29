@@ -1,0 +1,294 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500&family=Martel+Sans:wght@300;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: black;
+}
+.main{
+    height: 90vh;
+    background-image: url(assets/images/background.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1200px, 100vw);
+    position: relative;
+}
+
+.main .box1{
+    position: absolute;
+    top: 0;
+    height: 90vh;
+    width: 100%;
+    opacity: 0.7;
+    background-color: black;
+}
+
+nav{
+    max-width: 50vw;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: space-between;
+    height: 60px;
+}
+
+nav img{
+    color: red;
+    width: 145px;
+    position: relative;
+    z-index: 12;
+    padding-top: 15px;
+}
+
+nav button{
+    position: relative;
+    z-index: 12;
+}
+
+.text{
+    color: white;
+    height: calc(100% - 60px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+    z-index: 12;
+    font-family: 'Martel Sans', sans-serif;
+    gap: 24px;
+    padding: 30px;
+}
+
+.text> :nth-child(1){
+    font-weight: bolder;
+    font-size: 48px;
+    text-align: center;
+}
+
+.text> :nth-child(2){
+    font-size: 24px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.text> :nth-child(3){
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.seperate{
+    height: 8px;
+    background-color: rgb(56, 53, 53);
+}
+
+.btn{
+    border-radius: 4px;
+    padding: 4px 35px;
+    font-weight: bold;
+    border: 1px solid;
+    color: white;
+    border-color: rgb(199, 187, 187);
+    background-color: rgba(23, 23, 23, 0.7);
+    cursor: pointer;
+}
+
+.sbtn{ 
+    color: white;
+    padding: 4px 8px;
+    background-color: red;
+    font-weight: bold;
+    border-radius: 4px;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.mbtn{
+    border-radius: 4px;
+    color: white;
+    padding: 12px 24px;
+    background-color: red;
+    font-weight: bold;
+    font-size: large;
+    border: 2px solid red;
+    cursor: pointer;
+}
+
+.main input{
+    color: white;
+    padding: 14px 130px;
+    font-weight: bold;
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid;
+    border-color: white;       
+}
+
+.inbutton{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    max-width: 95vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.firstimg{
+    position: relative;
+}
+
+.firstimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+.firstimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    
+}
+
+section.first > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.first > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.first > div :nth-child(2){
+    font-size: 20px;
+}
+
+.second{
+    display: flex;
+    justify-content: center;
+    max-width: 95vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.secondimg{
+    position: relative;
+    
+}
+
+.secondimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+.secondimg video{
+    position: absolute;
+    top: 51px;
+    right: 0;
+    
+}
+
+section.second > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.second > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.second > div :nth-child(2){
+    font-size: 20px;
+}
+
+.third{
+    display: flex;
+    justify-content: center;
+    max-width: 95vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
+
+.thirdimg{
+    position: relative;
+}
+
+.thirdimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+}
+
+.thirdimg video{
+    position: absolute;
+    top: 22px;
+    margin-left: 80px;
+    
+}
+
+section.third > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.third > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.third > div :nth-child(2){
+    font-size: 20px;
+}
+
+.fourth{
+    display: flex;
+    justify-content: center;
+    max-width: 95vw;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.fourthimg{
+    position: relative;
+    
+}
+
+.fourthimg img{
+    width: 35vw;
+    position: relative;
+    z-index: 10;
+    margin-left: 50px;
+}
+
+section.fourth > div{
+    display: flex;
+    flex-direction: column;
+}
+
+section.fourth > div :nth-child(1){
+    font-size: 48px;
+    font-weight: bolder;
+}
+
+section.fourth > div :nth-child(2){
+    font-size: 20px;
+}
